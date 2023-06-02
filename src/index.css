@@ -1,0 +1,50 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  color-scheme: light;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #fff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* elements */
+
+.filter {
+  background: linear-gradient(to bottom, transparent 30%, rgb(247, 247, 247)70%);
+}
+
+.main-text-container {
+  height: 180px;
+}
+
+.main-text {
+  font-size: 12.5em !important;
+  line-height: 131px;
+}
+
+.seconde-text-container {
+  height: 180px;
+}
+
+.background-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100vw;
+
+  background-image: url("src/assets/Snowboard img.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  z-index: -1;
+}
